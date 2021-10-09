@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <title>Template</title>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="container">
+            <h2>Artica</h2>
+            <nav>
+                <div class="hambarger">
+                    <div class="tab"></div>
+                </div>
+                <ul class="menu">
+                    <li> <a href="#"> home</a> </li>
+                    <li> <a href="#"> services</a> </li>
+                    <li> <a href="#"> portfolio</a> </li>
+                    <li> <a href="#"> work</a> </li>
+                    <li> <a href="#"> skills</a> </li>
+                    <li> <a href="#"> news</a> </li>
+                    <li> <a href="#"> subscribe</a> </li>
+                    <li> <a href="#"> contact us</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--landing-->
+    <div class="landing">
+            <img src="images/slider/shutterstock_554314555_copy.jpg" alt="slder">
+            <img src="images/slider/popular-searches-shutterstock.jpg" alt="slider">
+            <img src="images/slider/Closeup_Camera_lens_534116_1280x677.jpg" alt="slider">
+           <img src="images/slider/271965.jpg" alt="slider">
+    
+        <div class="text">
+            <h1>Artica</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Laboriosam ducimus nisi vel enim ea vero natus quod consequuntur doloremque 
+                vitae distinctio illum accusantium aliquam possimus, sequi, veniam, minus quae saepe.</p>
+                <button>Purshase Theme</button>
+        </div>
+    </div>
+    <!--services-->
+    <div class="services">
+        <div class="container">
+            <div class="main-heading">
+                <h2>FULLY LAYERED AND CUSTOMIZABLE TEMPLATE</h2>
+                <span>our services</span>
+            </div>
+        <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci
+            dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac
+            inia in, elementum id enim. Vestibulum ac diam sit anet.</p>
+            <div class="content">
+                <div class="box">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>HTML&CSS</h3>
+                    <p>Donec sollicitudin molestie malesuada. 
+                        Curabitur aliquet quam id dui posuere 
+                        blandit. Nulla porttitor.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-pen-nib"></i>
+                    <h3>graphic design</h3>
+                    <p>Donec sollicitudin molestie malesuada. 
+                        Curabitur aliquet quam id dui posuere 
+                        blandit. Nulla porttitor.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-clock"></i>
+                    <h3>on time projects</h3>
+                    <p>Donec sollicitudin molestie malesuada. 
+                        Curabitur aliquet quam id dui posuere 
+                        blandit. Nulla porttitor.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-life-ring"></i>
+                    <h3>fully support</h3>
+                    <p>Donec sollicitudin molestie malesuada. 
+                        Curabitur aliquet quam id dui posuere 
+                        blandit. Nulla porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="tips">
+            <p>Design must reflect the practical and aesthetic in business but above all... 
+                good design must primarily serve people.</p>
+                <span>Thomas J. Watson </span>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div class="portfolio">
+        <div class="container">
+            <div class="main-heading">
+                <h2>MODERN AND CLEAN DESIGN</h2>
+                <span>OUR PORTFOLIO</span>
+            </div>
+            <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci
+                dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac
+                inia in, elementum id enim. Vestibulum ac diam sit anet.</p>
+                <ul>
+                    <li class="active" data-cat = ".all"> all </li>
+                    <li data-cat=".graphic"> graphic</li>
+                    <li data-cat=".web">web</li>
+                    <li data-cat=".photography">photography</li>
+                </ul>
+                <div class="photos">
+                    <div class="box graphic" onclick="showImage(this.querySelector('img'))">
+                        <img src="images/portfolio/graphicOne.jpg" alt="graphic">
+                    
+                        <div class="hover">
+                            <h3>some banding</h3>
+                            <p>graphic design</p>
+                        </div>
+                    </div>
+                    <div class="box graphic all" onclick="showImage(this.querySelector('img'))">
+                        <div class="img">
+                            <img src="images/portfolio/graphicTwo.jpg" alt="graphic">
+
+                        </div>
+                        <div class="hover">
+                            <h3>some banding</h3>
+                            <p>graphic design</p>
+                        </div>
+                    </div>
+                    <div class="box graphic all" onclick="showImage(this.querySelector('img'))">
+                        <img src="images/portfolio/graphicThree.jpg" alt="graphic">
+                        <div class="hover">
+                            <h3>some banding</h3>
+                            <p>graphic design</p>
+                        </div>
+                    </div>
+                    <div class="box web all" onclick="showImage(this.querySelector('img'))">
+                        <img src="images/portfolio/webOne.jpg" alt="web">
+                        <div class="hover">
+                            <h3>some banding</h3>
+                            <p>web</p>
+                        </div>
+                    </div>
+                    <div class="box web all" onclick="showImage(this.querySelector('img'))">
+                        <img src="images/portfolio/webTwo.jpg" alt="web">
+                        <div class="hover">
+                            <h3>some banding</h3>
+                            <p>web</p>
+                        </div>
+                    </div>
+                   
+                    <div class="box web all" onclick="showImage(this.querySelector('img'))">
+                        <img src="images/portfolio/webThree.jpg" alt="web">
+                        <div class="hover">
+                            <h3>some banding</h3>
+                            <p>web</p>
+                        </div>
+                   
+                    </div>
+                    <div class="box photography all" onclick="showImage(this.querySelector('img'))">
+                        <img src="images/portfolio/photographyOne.jpg" alt="photography">
+                        <div class="hover">
+                            <h3>some banding</h3>
+                            <p>photography</p>
+                        </div>
+                    </div>
+                    
+     
+                    <div class="box photography all" onclick="showImage(this.querySelector('img'))">
+                      
+                        <img src="images/portfolio/photographyTwo.jpg" alt="photography">
+                        <div class="hover">
+                            <h3>some banding</h3>
+                            <p>photography</p>
+                        </div>
+                    </div>
+                  
+             
+                    <div class="modal" >
+                        <div class="img">
+                            <img src="" alt="">
+                        </div>
+                        <div class="text">
+                            <span>&times;</span>
+                            <h3></h3>
+                            <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. 
+                                Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port
+                                titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves
+                                tibulum ac diam sit anet.
+                                Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti
+                                tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum
+                                san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac 
+                                diam sit anet.</p>
+                                <hr>
+                                <div class="inform">
+                                    <div>
+                                        <i class="fas fa-clock"></i> <span>time</span>
+
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-user"></i> <span>user</span>
+
+                                    </div>
+                                    <div>
+                                        <i class="fas fa-cog"></i> <span>accurate</span>
+
+                                    </div>
+                                </div>
+                                <button>view in action</button>
+                        </div>
+                     
+                    </div>
+                </div>
+                <div class="down">
+                    <i class="fas fa-arrow-down"></i>
+                    <h3>we love our work</h3>
+                    <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci
+                        dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidun.</p>
+                        <button>Purshase theme</button>
+                </div>
+           
+
+        </div>
+    </div>
+    <!--about-->
+    <div class="about">
+        <div class="container">
+            <div class="main-heading">
+                <h2>FULLY RESPONSIVE DESIGN</h2>
+                <span>about us</span>
+            </div>
+            <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci
+                dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac
+                inia in, elementum id enim. Vestibulum ac diam sit anet.
+            </p>
+            <div class="team">
+                <div class="user">
+                    <div class="img">
+                        <img src="images/about us/gPZwCbdS.jpg" alt="user">
+                    </div>
+                    <h3>john doe</h3>
+                    <span>creative director</span>
+                    <div id="story">
+                        <h3>my story</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam fuga reiciendis similique dolor suscipit ipsam quasi voluptatem repellendus, libero unde, harum accusantium architecto et mollitia at. Ratione dolores officia voluptatibus.</p>
+                        <div>
+                            <i class="fas fa-clock"></i> <span>time</span>
+            
+                        </div>
+                        <div>
+                            <i class="fas fa-user"></i> <span>user</span>
+            
+                        </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="img">
+                        <img src="images/about us/P1090594-1.jpeg" alt="user">
+                    </div>
+                    <h3>lurem ipsum</h3>
+                    <span>graphic designer</span>
+                </div>
+                <div class="user">
+                    <div class="img">
+                        <img src="images/about us/user1.jpg" alt="user">
+                    </div>
+                    <h3>lorem doe</h3>
+                    <span>web designer</span>
+                </div>
+                <div class="user">
+                    <div class="img">
+                        <img src="images/about us/unnamed.jpg" alt="user">
+                    </div>
+                    <h3>emmy lorem</h3>
+                    <span>photographer</span>
+                </div>
+        
+            </div>
+        </div>
+  
+    </div>
+    <!--skills-->
+    <div class="skills">
+        <div class="container">
+            <h2>we have skills</h2>
+            <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci
+                dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidun.
+            </p>
+            <div class="box">
+                <div class="texts">
+                    <h3>our company</h3>
+                    <p>Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet 
+                        et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accum
+                        san tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, 
+                        pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, 
+                        elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
+                        posuere cubilia Curae; Donec velit neque, auctor situr arcu erat, accumsan id imperdiet 
+                        et, porttitor at sem.</p>
+                        <button>read more</button>
+                </div>
+                <div id="progress-section">
+                    <h3>our skills</h3>
+                    <div class="progress">
+                        <div class="bar" data-bar = "90"></div>
+                        <span>HTML&CSS</span>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" data-bar = "80"></div>
+                        <span>javaScript</span>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" data-bar = "40"></div>
+                        <span>graphic design</span>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" data-bar = "70"></div>
+                        <span>photography</span>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="activity">
+
+
+               <div>
+               <div><i class="far fa-user"></i> </div> 
+                <div class="text">
+                    <h3 class="customer" data-num = '230'>0</h3>
+                    <span>customers</span>
+                </div>
+               </div> 
+               
+
+               <div>
+                <div><i class="fas fa-heart"></i> </div> 
+                 <div class="text">
+                     <h3 class="awards" data-num = '22'>0</h3>
+                     <span>awards</span>
+                 </div>
+                </div> 
+
+                <div>
+                    <div><i class="fas fa-stopwatch"></i> </div> 
+                     <div class="text">
+                         <h3 class="projects" data-num = '2380'>0</h3>
+                         <span>completed <br> projects</span>
+                     </div>
+                    </div> 
+
+                    <div>
+                        <div><i class="fab fa-twitter"></i> </div> 
+                         <div class="text">
+                             <h3 class="followers" data-num = '5084'>0</h3>
+                             <span>followers</span>
+                         </div>
+                        </div> 
+        </div>
+    </div>
+    <!--blog-->
+    <div class="blog">
+        <div class="container">
+            <div class="main-heading">
+                <h2>bootstrap grid ready</h2>
+                <span>our BLOG</span>
+            </div>
+            <P>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci
+                dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac
+                inia in, elementum id enim. Vestibulum ac diam sit anet.
+            </P>
+            <div class="box">
+                <div class="content all newest">
+                   <div class="img">
+                   <img src="images/grid/Health-Lifestyle.jpg" alt="">
+                   </div> 
+                   <div class="texts">
+                       <h3>Great party we have 
+                        there</h3>
+                       <span>Published by: John Doe</span>
+                       <p>Donec sollicitudin molestie male
+                        suada. Curabitur aliquet quam id
+                        dui posuere blandit. Nulla porttitor 
+                        accumsan tincidunt. Quisque velit 
+                        nisi, pretium ut lacinia in, elemena 
+                        porttitor accumsan tincidunt. 
+                        Quisque velit nid enim. Vestibulum 
+                        ac diam sit anet.</p>
+                   </div>
+                </div>
+    
+                <div class="content all newest">
+                    <div class="img">
+                     <img src="images/grid/friends_drinking_champagne_gvg49g7.width-1200.jpg" alt="grid">
+                    </div> 
+                    <div class="texts">
+                        <h3>Great party we have 
+                         there</h3>
+                        <span>Published by: John Doe</span>
+                        <p>Donec sollicitudin molestie male
+                         suada. Curabitur aliquet quam id
+                         dui posuere blandit. Nulla porttitor 
+                         accumsan tincidunt. Quisque velit 
+                         nisi, pretium ut lacinia in, elemena 
+                         porttitor accumsan tincidunt. 
+                         Quisque velit nid enim. Vestibulum 
+                         ac diam sit anet.</p>
+                    </div>
+                 </div>
+    
+                 <div class="content all oldest">
+                    <div class="texts">
+                        <h3>Great party we have 
+                         there</h3>
+                        <span>Published by: John Doe</span>
+                        <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+                            tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. 
+                            Vestibulum ac diam sit anet.Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. 
+                            Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibu
+                            lum ac diam sit anet.
+                            
+                            Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+                            tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. 
+                            Vestibulum ac diam sit anet. </p>
+                    </div>
+                 </div>
+                 <div class="content all oldest">
+                     <div class="img">
+                       
+                     </div>
+                  
+                    <div class="texts">
+                        <h3>Say hello to our new studio</h3>
+                        <span>Published by: John Doe</span>
+                        <p>Donec sollicitudin molestie malesuada. Cura
+                            bitur aliquet quam id dui posuere blandit. Nulla 
+                            porttitor accumsan tincidunt. Quisque velit nisi, 
+                            pretium ut lacinia in, elemena porttitor accum
+                            san tincidunt. Quisque velit nid enim. Vestibu
+                            lum ac diam sit anet.
+                            Quisque velit nisi, pretium ut lacinia in, elemena 
+                            porttitor accumsan tincidunt. Quisque velit nid 
+                            enim. Vestibulum ac diam sit anet. </p>
+                    </div>
+                 </div>
+                
+                 <div class="content all popular">
+                    <div class="texts">
+                        <h3>New design</h3>
+                        <span>Published by: John Doe</span>
+                        <p>Donec sollicitudin molestie malesuada. Cura
+                            bitur aliquet quam id dui posuere blandit. Nulla 
+                            porttitor accumsan tincidunt. Quisque velit nisi, 
+                            pretium ut lacinia in, elemena porttitor accum
+                            san tincidunt. Quisque velit nid enim. Vestibu
+                            lum ac diam sit anet.
+                            Quisque velit nisi, pretium ut lacinia in, elemena
+                            porttitor accumsan tincidunt. Quisque velit nid 
+                            enim. Vestibulum ac diam sit anet. </p>
+                    </div>
+                 </div>
+                 <div class="content all popular">
+                    <div class="texts">
+                        <h3>New design</h3>
+                        <span>Published by: John Doe</span>
+                        <p>Donec sollicitudin molestie malesuada. Cura
+                            bitur aliquet quam id dui posuere blandit. Nulla 
+                            porttitor accumsan tincidunt. Quisque velit nisi, 
+                            pretium ut lacinia in, elemena porttitor accum
+                            san tincidunt. Quisque velit nid enim. Vestibu
+                            lum ac diam sit anet.
+                            Quisque velit nisi, pretium ut lacinia in, elemena
+                            porttitor accumsan tincidunt. Quisque velit nid 
+                            enim. Vestibulum ac diam sit anet. </p>
+                    </div>
+                 </div>
+                 
+            </div>
+            <div class="down">
+                <i class="fas fa-arrow-down"></i>
+                <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci
+                    dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidun.</p>
+            </div>
+            <form action="" method="get">
+                <input type="email" placeholder="you mail">
+                <input type="submit" value="subscribe">
+            </form>
+        </div>
+    </div>
+    <!--testimonail-->
+    <div class="testimonial">
+        <div class="container">
+            <div class="main-heading">
+                <h2>testimonials</h2>
+                <p>“ Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. 
+                    Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi. ”</p>
+                    <span>john doe</span>
+            </div>
+        </div>
+    </div>
+    <!--contact us-->
+    <div class="contact">
+        <div class="container">
+            <div class="main-heading">
+                <h2>FEEL FREE TO ASK US ANYTHING</h2>
+                <span>contact us</span>
+            </div>
+            <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci
+                dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac
+                inia in, elementum id enim. Vestibulum ac diam sit anet.
+            </p>
+            <div class="information">
+                <div class="box">
+                    <i class="fas fa-home"></i>
+                    <h3> addresse </h3>
+                   <p> Awesome Street 234,NY </p>
+                </div>
+                <div class="box">
+                    <i class="far fa-comment"></i>
+                    <h3> mail </h3>
+                    <p>articamail@mail.com</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-phone"></i>
+                    <h3> phone </h3>
+                    <p>(000)123-456-789</p>
+                </div>
+            </div>
+            <form action="" method="get">
+                <input name="username" type="text" placeholder="enter name">
+                  
+                    <input name="email" type="email" placeholder="enter mail">
+                <input type="text" placeholder="enter subject">
+                <textarea placeholder="enter message"></textarea>
+                <input type="submit" value="send message">
+    
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>Made by <span>Mr Compiler</span> (Alaa) </h3>
+        <p> &copy; copy right 2021 </p>
+    </div>
+ <script src="js/main.js"></script>   
+</body>
+</html>
